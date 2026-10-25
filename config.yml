@@ -1,0 +1,6 @@
+# Messages
+messages:
+  prefix: "§7[§6Bounty]"
+  bounty-set: "&aAuf &e%target% &awurde ein Kopfgeld von &e%amount%$ &agesetzt!"
+  no-money: "§cDu hast nicht genug Geld dafür!"
+  target-not-found: "§cDer Spieler wurde nicht gefunden!"

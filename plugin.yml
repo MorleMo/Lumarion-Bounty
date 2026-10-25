@@ -1,0 +1,19 @@
+name: LumarionBounty
+version: '1.0'
+main: lumarion.lumarionBounty.LumarionBounty
+api-version: '1.21'
+authors:
+  - Moritz M.
+
+commands:
+  bounty:
+    description: Öffne das Bounty-Menü oder setze ein Kopfgeld
+
+    aliases:
+      - kopfgeld
+      - kopfgelder
+
+  reload:
+    description: Lade die Config neu
+    permission: bounty.admin.reload
+    permission-message: §cDazu hast du keine Rechte!
